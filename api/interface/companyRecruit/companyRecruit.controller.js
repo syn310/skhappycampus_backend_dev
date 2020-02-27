@@ -8,6 +8,8 @@ exports.index = (req,res) => {
   const serialNumber = req.params.serialNumber || '';
   const applyUserId = req.params.applyUserId || '';
 
+  console.log(serialNumber)
+
   const query = "select" +
               "    sc.company_id as companyId," +
               "    sc.company_name as companyName," +
