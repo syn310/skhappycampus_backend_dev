@@ -29,6 +29,9 @@ app.use('/applyUserCompanyStatus', require('./api/interface/applyUserCompanyStat
 app.use('/mail', require('./api/interface/mail'));
 app.use('/notice', require('./api/interface/notice'));
 
+//surim
+app.use('/book', require('./api/interface/book'));
+
 //app.use('/', express.static(path.join(__dirname, './../public')));
 //app.get('*', (req, res) => {
 //    res.sendFile(path.resolve(__dirname, './../public/index.html'));
